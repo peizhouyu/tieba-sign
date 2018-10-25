@@ -80,7 +80,7 @@ def main():
     while flag:
         flag = sum([tb.sign(k['name']) for k in tb.lists if not k['is_sign']])
     print('********************\nAll Finished!\n\n')
-    print(tieba.lists)
+
 
 
 if __name__ == '__main__':
