@@ -1,20 +1,24 @@
 #! python3
 # -*- coding:utf-8 -*-
+import os
+import sys
 
 import requests
 import re
-import hashlib
-import json
 import time
-from urllib import request
 from urllib import parse
-from urllib.request import urlopen
+import schedule
+
 
 class tieba:
     # bduss
-    bduss = ''
+    bduss = os.getenv('BDUSS')
     # 填入自己的百度id
-    myid = ''
+    myid = os.getenv('MYID')
+    exec_time = os.getenv('EXEC_TIME', '02:00')
+    if len(bduss) == 0 or len(myid) == 0:
+        print("bduss or myid is null, bduss: " + bduss + ", myid: " +myid)
+        sys.exit(0)
 
     url = 'http://tieba.baidu.com/home/main?un=' + myid + '&fr=index'
     headers = {'Cookie': 'BDUSS=' + bduss}
@@ -45,7 +49,6 @@ class tieba:
             'data']['fid']
         return {'fid': fid, 'kw': kws, 'BDUSS': self.bduss, 'tbs': tbs}
 
-
     def getData(self, postDict):
         return {'ie': 'utf-8', 'kw': postDict['kw'], 'tbs': postDict['tbs']}
 
@@ -72,7 +75,7 @@ class tieba:
             return 1
 
 
-def main():
+def app():
     tb = tieba()
     flag = 1
     print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time())))
@@ -82,10 +85,13 @@ def main():
             flag = sum([tb.sign(k['name']) for k in tb.lists if not k['is_sign']])
         except ValueError:
             print("error")
-
     print('********************\nAll Finished!\n\n')
 
 
+schedule.every().day.at(tieba.exec_time).do(app)
+while True:
+    schedule.run_pending()
+    time.sleep(1)
 
 if __name__ == '__main__':
     main()
