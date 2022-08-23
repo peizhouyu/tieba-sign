@@ -10,6 +10,7 @@ from urllib import request
 from urllib import parse
 from urllib.request import urlopen
 
+
 class tieba:
     # bduss
     bduss = ''
@@ -44,7 +45,6 @@ class tieba:
         fid = requests.get(get_fid_url, headers=self.headers).json()[
             'data']['fid']
         return {'fid': fid, 'kw': kws, 'BDUSS': self.bduss, 'tbs': tbs}
-
 
     def getData(self, postDict):
         return {'ie': 'utf-8', 'kw': postDict['kw'], 'tbs': postDict['tbs']}
@@ -84,7 +84,6 @@ def main():
             print("error")
 
     print('********************\nAll Finished!\n\n')
-
 
 
 if __name__ == '__main__':

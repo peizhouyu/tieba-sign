@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b63182c3-9028-4c6d-8ea2-6d49d1fe7f9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="b63182c3-9028-4c6d-8ea2-6d49d1fe7f9d" name="Default Changelist" comment="Default Changelist">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,18 +39,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="a9c9827e-eb33-42c3-af33-4e39d4497d0a" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1Q7zpQN0CDfaL5TeWMTF4OWyLF6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/peizhouyu/data/code/python/tieba-sign"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/deploy" />
@@ -56,42 +62,19 @@
       <recent name="$PROJECT_DIR$/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tieba">
-    <configuration name="teiba_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager">
+    <configuration name="tieba" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="tieba-sign" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/teiba_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tieba" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="tieba-sign" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/tieba.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -101,38 +84,9 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tieba_schedule" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="tieba-sign" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deploy/tieba_schedule.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Python.teiba_test" />
-      <item itemvalue="Python.tieba" />
-      <item itemvalue="Python.tieba_schedule" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tieba_schedule" />
         <item itemvalue="Python.tieba" />
-        <item itemvalue="Python.teiba_test" />
         <item itemvalue="Python.tieba" />
         <item itemvalue="Python.tieba_schedule" />
       </list>
@@ -244,7 +198,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599214294959</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Default Changelist">
+      <created>1661243829924</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1661243829924</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Default Changelist">
+      <created>1661243888179</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1661243888179</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,48 +226,44 @@
             <State />
           </value>
         </entry>
+        <entry key="e90a237d-465c-4641-a1af-1e1ff641370a">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="e90a237d-465c-4641-a1af-1e1ff641370a" value="TOOL_WINDOW" />
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bug修复" />
     <MESSAGE value="remove env" />
     <MESSAGE value="add docker config" />
-    <option name="LAST_COMMIT_MESSAGE" value="add docker config" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="463" y="81" key="CommitChangelistDialog2" timestamp="1599214294754">
-      <screen x="0" y="23" width="1680" height="971" />
-    </state>
-    <state x="463" y="81" key="CommitChangelistDialog2/-1920.23.1920.1057/0.23.1680.971@0.23.1680.971" timestamp="1599214294754" />
-    <state width="1379" height="349" key="GridCell.Tab.0.bottom" timestamp="1599210998115">
-      <screen x="0" y="23" width="1680" height="971" />
-    </state>
-    <state width="1379" height="349" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1680.971@0.23.1680.971" timestamp="1599210998115" />
-    <state width="1379" height="349" key="GridCell.Tab.0.center" timestamp="1599210998114">
-      <screen x="0" y="23" width="1680" height="971" />
-    </state>
-    <state width="1379" height="349" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1680.971@0.23.1680.971" timestamp="1599210998114" />
-    <state width="1379" height="349" key="GridCell.Tab.0.left" timestamp="1599210998114">
-      <screen x="0" y="23" width="1680" height="971" />
-    </state>
-    <state width="1379" height="349" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1680.971@0.23.1680.971" timestamp="1599210998114" />
-    <state width="1379" height="349" key="GridCell.Tab.0.right" timestamp="1599210998114">
-      <screen x="0" y="23" width="1680" height="971" />
-    </state>
-    <state width="1379" height="349" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1680.971@0.23.1680.971" timestamp="1599210998114" />
-    <state x="690" y="212" key="RollbackChangesDialog" timestamp="1599214137414">
-      <screen x="0" y="23" width="1680" height="971" />
-    </state>
-    <state x="690" y="212" key="RollbackChangesDialog/-1920.23.1920.1057/0.23.1680.971@0.23.1680.971" timestamp="1599214137414" />
-    <state x="475" y="247" key="Vcs.Push.Dialog.v2" timestamp="1599214050788">
-      <screen x="0" y="23" width="1680" height="971" />
-    </state>
-    <state x="475" y="247" key="Vcs.Push.Dialog.v2/-1920.23.1920.1057/0.23.1680.971@0.23.1680.971" timestamp="1599214050788" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/tieba_sign$tieba_schedule.coverage" NAME="tieba_schedule Coverage Results" MODIFIED="1599210038439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
-    <SUITE FILE_PATH="coverage/tieba_sign$tieba.coverage" NAME="tieba Coverage Results" MODIFIED="1599210973713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+    <MESSAGE value="Default Changelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
   </component>
 </project>
